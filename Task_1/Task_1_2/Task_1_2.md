@@ -3,7 +3,7 @@
 1. **`mkfifo ss_output`**: Создает именованный пайп с именем ss_output.
 2. **`ss -plnt > ss_output &`**: Запускает команду ss и перенаправляет вывод в пайп ss_output (в фоновом режиме).
 3. **`cat ss_output > ss_output.txt`**: Читает данные из пайпа ss_output и записывает их в файл ss_output.txt.
-4. **`cat ss_output.txt'`**: Выводит содержимое файла ss_output.txt.
+4. **`cat ss_output.txt`**: Выводит содержимое файла ss_output.txt.
 
 ```bash
 [root@Zero ~]#	mkfifo ss_output
